@@ -2,19 +2,24 @@
 #container{
     display: flex;
     flex-direction: column;
+    padding: 5px;
 }
 
 #header {
     display: flex;
     flex-direction: row;
+    justify-content:space-between;
+    border-bottom: 3px solid #7d97ad;
 }
 
 #mugshot{
     border: 1px solid red;
     width: 25%;
     height: 150px;
-    min-width: 45px;
-    min-height: 45px;
+    min-width: 150px;
+    min-height: 150px;
+    max-width: 150px;
+    max-height: 150px;
 }
 
 #title_block{
@@ -24,15 +29,10 @@
     width: 75%;
     border: 1px dashed black;
     max-height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#title{
 
-}
-
-#sub_title{
-
-}
 
 #hero {
 
@@ -41,4 +41,33 @@
 
 #featured {
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+.one{
+    order: 1;
+
+}
+
+.two{
+    order: 2;
+
+}
+
+.three{
+    order: 3;
+
+}
+
+.proj_title{
+    font-size: 2.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#featured_header{
+    color: #7d97ad;
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
 }
