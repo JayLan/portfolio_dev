@@ -64,17 +64,24 @@
 
 .one{
     order: 1;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .two{
-    order: 2;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .three{
-    order: 3;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #featured_header{
@@ -84,7 +91,7 @@
 }
 
 .proj_title{
-    font-size: 2.5em;
+    font-size: 2.2em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
