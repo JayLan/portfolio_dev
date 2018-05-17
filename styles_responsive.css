@@ -43,7 +43,7 @@
     }
 
     #featured_header{
-        font-size: 1.5em;
+        font-size: 1.8em;
     }
 
     .proj_title{
@@ -72,17 +72,38 @@
         display: none;
     }
  
+    #linkage{
+        font-size: 1em;
+    }
+
     #hero{
         margin-top: 0.3em;
     }
 
     .hrule{
         margin-top: 12px;
+        height: 1px;
+    }    
+
+    .proj_link{
+        font-size: .65em;
     }
 }
 
 @media screen and (max-width: 600px){
-    .hrule{
-        height: 1px;
+    
+    #featured_header{
+        font-size: 1.3em;
+    }
+
+    .proj_title{
+        font-size: 1.25em;
+
+    }
+
+    .featured_pic{
+        height: 153px;
+        width: 235px;
+
     }
 }
