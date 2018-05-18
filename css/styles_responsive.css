@@ -21,10 +21,6 @@
         
     }
     
-    #header{
-
-    }
-    
     #hero{
         margin-top: 0.75em;
     }
@@ -86,7 +82,7 @@
     }    
 
     .proj_link{
-        font-size: 0.65em;
+        font-size: 0.75em;
     }
 }
 
