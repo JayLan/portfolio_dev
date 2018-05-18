@@ -1,7 +1,7 @@
 
 
 
-@media screen and (min-width: 1079px){
+@media screen and (min-width: 1079px) {
     #container {
         max-width: 1080px;
         margin-left: auto;
@@ -9,13 +9,13 @@
     }
 }
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1100px) {
     .one, .two {
         margin-right: 15px;
     }
 }
 
-@media screen and (max-width: 1078px){
+@media screen and (max-width: 1078px) {
     #featured {
         justify-content: flex-start;
         
@@ -31,7 +31,7 @@
 
 }
 
-@media screen and (max-width: 740px){
+@media screen and (max-width: 740px) {
     
     #mugshot{
         width: 90px;
@@ -65,7 +65,7 @@
     }
 
     #sub_title{
-        font-size: .72em;
+        font-size: 0.72em;
     }
     
     #sub_sub_title{
@@ -86,11 +86,11 @@
     }    
 
     .proj_link{
-        font-size: .65em;
+        font-size: 0.65em;
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     
     #featured_header{
         font-size: 1.3em;

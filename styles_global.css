@@ -41,7 +41,7 @@ a:hover {
     margin-right: 15px;
 }
 
-#linkage{
+#linkage {
 
     width: 100%;
     display: flex;
@@ -53,14 +53,14 @@ a:hover {
 
 }
 
-#linkage a{
+#linkage a {
     margin-left: 8px;
     margin-right: 8px;
     color: #adc0d1;
 
 }
 
-#linkage a:hover{
+#linkage a:hover {
     color: #4b6379;
 }
 
@@ -83,7 +83,7 @@ a:hover {
 #hero {
     display: flex;
     justify-content: center;
-    margin-top: .8em;
+    margin-top: 0.8em;
 
 }
 
@@ -114,7 +114,7 @@ a:hover {
     margin-bottom: 15px;
 }
 
-#featured img{
+#featured img {
     border: 1px solid #bebebe;
 }
 
@@ -178,7 +178,7 @@ a:hover {
     padding: 0px;
     margin: 0px;
     text-align: right;
-    font-size: .66em;
+    font-size: 0.66em;
     font-family: 'Quicksand', Arial, Helvetica, sans-serif;
     font-weight: 300;
     color: #6885a0;
@@ -186,7 +186,7 @@ a:hover {
 }
 
 .proj_link {
-    font-size: .8em;
+    font-size: 0.8em;
     font-family: 'Quicksand', Arial, Helvetica, sans-serif;
 }
 
@@ -212,6 +212,6 @@ a:hover {
     color: #adc0d1;
 }
 
-#footer i:hover{
+#footer i:hover {
     color: #4b6379;
 }
