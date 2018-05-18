@@ -60,6 +60,10 @@ a:hover {
 
 }
 
+#linkage a:hover{
+    color: #4b6379;
+}
+
 #title_block {
     margin-top: 4px;
     flex-direction: column;
@@ -108,7 +112,10 @@ a:hover {
 
 #featured div {
     margin-bottom: 15px;
+}
 
+#featured img{
+    border: 1px solid #bebebe;
 }
 
 .one {
@@ -203,4 +210,8 @@ a:hover {
     margin-right: 10px;
     margin-left: 10px;
     color: #adc0d1;
+}
+
+#footer i:hover{
+    color: #4b6379;
 }
